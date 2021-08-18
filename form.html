@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id=title>Student Survey form</h1>
+        <p id="Description">Thank You for taking the time to help us to improve our Platform.</p>
+      </header>
+      <form action="" id="survey-form">
+        <!--Text Section-->
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" class="formControl" placeholder="Enter your name" required>
+        </div>
+        <!--End Of Text Section-->
+
+        <!--Type email Section-->
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" class="formControl" placeholder="Enter your email" required>
+        </div>
+        <!--End of email section-->
+
+        <!--Type Number Section-->
+        <div class="form-group">
+          <label for="Phone">Phone Number</label>
+          <input type="number" name="phone" id="phone" class="formControl" placeholder="Enter your Phone No" required>
+        </div>
+        <!--End of Number Section-->
+
+        <!--Address Section-->
+        <div class="form-group">
+          <label for="name">Address <span class="clue">(Optional)</span></label>
+          <input type="address" name="address" id="address" class="formControl" placeholder="Enter your Address" required>
+        </div>
+        <!--End of Address Section-->
+
+        <!--Select Section-->
+        <div class="form-group">
+          <p id="quest"> Are you satisfied with the teaching staff and their teaching methods?</p>
+          <select name="role" id="dropdown" class="fermControl" required>
+            <option value=""disabled selected>select</option>
+            <option value="Very satisfied">Very satisfied</option>
+            <option value="Satisfied">Satisfied</option>
+            <option value="Neutral">Neutral</option>
+            <option value="Dissatisfied">Dissatisfied</option>
+            <option value="Very dissatisfied">Very dissatisfied</option>
+          </select>
+        </div>
+        <!--End of Select Section-->
+
+        <!--Checkbox Section-->
+        <div class="form-group">
+          <p id="quest">How satisfied are you with the teaching staff and there Teaching methods?</p>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Very satisfied">Very satisfied</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Satisfied">Satisfied</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Neutral">Neutral</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Dissatisfied">Dissatisfied</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Very dissatisfied">Very dissatisfied</label>
+        </div>
+        <!--End of Checkbox Section-->
+
+        <!--Checkbox Section-->
+        <div class="form-group">
+          <p id="quest">How about your overall experience with this college?</p>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Very Good">Very Good</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Good">Good</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Neutral">Neutral</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Poor">Poor</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Very Poor">Very Poor</label>
+        </div>
+        <!--End of Checkbox Section-->
+
+        <!--Select Section-->
+        <div class="form-group">
+          <p id="quest">Do you feel it is easier to register for different courses within the college?</p>
+          <select name="role" id="dropdown" class="fermControl" required>
+            <option value=""disabled selected>select</option>
+            <option value="Very satisfied">Very satisfied</option>
+            <option value="Satisfied">Satisfied</option>
+            <option value="Neutral">Neutral</option>
+            <option value="Dissatisfied">Dissatisfied</option>
+            <option value="Very dissatisfied">Very dissatisfied</option>
+          </select>
+        </div>
+        <!--End of Select Section-->
+
+        <!--Checkbox Section-->
+        <div class="form-group">
+          <p id="quest">How supportive were the faculty members?</p>
+          <label for=""><input type="checkbox" name="source" class="checkbox" value="Very supportive">Very supportive</label>
+          <label for=""><input type="checkbox" name="source" class="checkbox" value="Supportive">Supportive</label>
+          <label for=""><input type="checkbox" name="source" class="checkbox" value="Neutral">Neutral</label>
+          <label for=""><input type="checkbox" name="source" class="checkbox" value="Unsupportive">Unsupportive</label>
+          <label for=""><input type="checkbox" name="source" class="checkbox" value="Very unsupportive">Very unsupportive</label>
+        </div>
+        <!--End of Checkbox Section-->
+
+        <!--Checkbox Section-->
+        <div class="form-group">
+          <p id="quest">What do you think of the hostel?</p>
+          <label for=""><input type="checkbox" name="source" class="checkbox" value="Extremely crowded">Extremely crowded</label>
+          <label for=""><input type="checkbox" name="source" class="checkbox" value="Very crowded">Very crowded</label>
+          <label for=""><input type="checkbox" name="source" class="checkbox" value="Somewhat crowded">Somewhat crowded</label>
+          <label for=""><input type="checkbox" name="source" class="checkbox" value="Not so crowded">Not so crowded</label>
+          <label for=""><input type="checkbox" name="source" class="checkbox" value="Not at all crowded">Not at all crowded</label>
+        </div>
+        <!--End of Checkbox Section-->
+
+        <!--Select Section-->
+        <div class="form-group">
+          <p id="quest">How satisfied are you with the cleanliness and variety of food items available in the cafeteria?</p>
+          <select name="role" id="dropdown" class="fermControl" required>
+            <option value=""disabled selected>select</option>
+            <option value="Very satisfied">Very satisfied</option>
+            <option value="Satisfied">Satisfied</option>
+            <option value="Neutral">Neutral</option>
+            <option value="Dissatisfied">Dissatisfied</option>
+            <option value="Very dissatisfied">Very dissatisfied</option>
+          </select>
+        </div>
+        <!--End of Select Section-->
+
+        <!--Checkbox Section-->
+        <div class="form-group">
+          <p id="quest">Do you think faculty and support staff at the college were helpful?</p>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Very helpful">Very helpful</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Helpful">Helpful</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Neither helpful nor unhelpful">Neither helpful nor unhelpful</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Unhelpful">Unhelpful</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Very unhelpful">Very unhelpful</label>
+        </div>
+        <!--End of Checkbox Section-->
+
+        <!--Checkbox Section-->
+        <div class="form-group">
+          <p id="quest">Given a chance, are you willing to pursue another course at the college?</p>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Definitely, Yes">Definitely, Yes</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Probably, Yes">Probably, Yes</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Probably, No">Probably, No</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Definitely, No">Definitely, No</label>
+          <label for=""><input type="checkbox" name="prefer" class="checkbox" value="Can’t say">Can’t say</label>
+        </div>
+        <!--End of Checkbox Section-->
+
+        <!--Select Section-->
+        <div class="form-group">
+          <p id="quest">How many hours a week do you work your part-time job?</p>
+          <select name="role" id="dropdown" class="fermControl" required>
+            <option value=""disabled selected>select</option>
+            <option value="I don’t have a job">I don’t have a job</option>
+            <option value="1-10 hours a week">1-10 hours a week</option>
+            <option value="11-15 hours a week">11-15 hours a week</option>
+            <option value="16-20 hours a week">16-20 hours a week</option>
+            <option value="More than 20 hours a week">More than 20 hours a week</option>
+          </select>
+        </div>
+        <!--End of Select Section-->
+
+        <!--Textarea Section-->
+        <div class="form-group">
+          <p id="quest">Give us your valuable feedback</p>
+          <textarea name="feedback" id="feedback" rows="5" cols="30" class="textarea" placeholder="Enter your feedback here..."></textarea>
+        </div>
+        <!--End of Textarea Section-->
+
+        <!--Submit button-->
+        <div class="form-group">
+          <button type="Submit" id="Submit" class="btn" name="button">Submit</button>
+        </div>
+    </form>
+    </div>
+  </body>
+</html>
